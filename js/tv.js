@@ -1,5 +1,5 @@
 var sounds = [
-  '/sounds/Hoot.wav',
+  '/sounds/hoot.wav',
   '/sounds/offline.wav',
   '/sounds/bluescreen.wav',
   '/sounds/whitenoise.wav',
