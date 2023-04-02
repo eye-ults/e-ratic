@@ -1,6 +1,6 @@
 var sounds = [
   '/sounds/hoot.wav',
-  '/sounds/offline.wav',
+  '/sounds/kill_your_masters.wav',
   '/sounds/bluescreen.wav',
   '/sounds/whitenoise.wav',
   '/sounds/strange_bird.wav'
