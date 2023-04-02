@@ -88,13 +88,13 @@ body {
   width: 100vw;
   height: 100vh;
 }
-/* bob was here */
+
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-image: url("../img/void_vertical_v4.gif");
+  background-image: url("../img/void_v.gif");
   background-color: #000; /* Used if the image is unavailable */
   height: 100vh; /* You must set a specified height */
   width: auto;
