@@ -22,11 +22,11 @@ loopify(sounds[currentSoundIndex + 1], ready);
 
 // List of GIF files to cycle through
 var gifList = [
-  'img/TV_EYE.gif',
-  'img/E-ratic_Glitch.gif',
-  'img/Offline.gif',
-  'img/bluescreen.gif',
-  'img/whitenoise.gif'
+  '../img/TV_EYE.gif',
+  '../img/E-ratic_Glitch.gif',
+  '../img/Offline.gif',
+  '../img/bluescreen.gif',
+  '../img/whitenoise.gif'
 ];
 
 // Index of the current GIF file in the list
@@ -36,8 +36,8 @@ var currentGifIndex = 0;
 //Turn on and off TV
 function toggleTV() {
   var image = document.getElementById('tv');
-  if (image.src.match('img/TV_OFF.png')) {
-    image.src = 'img/Turn_on.gif';
+  if (image.src.match('../img/TV_OFF.png')) {
+    image.src = '../img/Turn_on.gif';
     image.alt = 'turn on effect';
     Promise.all([
       loop.stop(),
@@ -51,13 +51,13 @@ function toggleTV() {
       loop.play();
     });
   } else {
-    image.src = 'img/Turn_off.gif';
+    image.src = '../img/Turn_off.gif';
     image.alt = 'TV off effect';
     Promise.all([
       loop.stop(),
       new Promise((resolve) => setTimeout(resolve, 900))
     ]).then(() => {
-      image.src = 'img/TV_OFF.png';
+      image.src = '../img/TV_OFF.png';
       image.alt = 'TV Off';
     });
   }
