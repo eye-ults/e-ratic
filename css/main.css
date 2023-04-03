@@ -566,6 +566,12 @@ footer img {
 
 span {
   margin: 2em 0px;
+  height: fit-content;
+}
+
+span img {
+  height: 40%;
+  width: 40%;
 }
 
 #pixel hr {
@@ -608,7 +614,7 @@ span {
 }
 
 .group img {
-  height: fit-content;
+  height: 40%;
   width: 40%;
   margin: .5em;
 }
