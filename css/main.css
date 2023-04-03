@@ -521,7 +521,7 @@ footer img {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   padding: 0px 0px 11em;
-  -webkit-text-stroke: .25px #000;
+  -webkit-text-stroke: .15px #000;
   text-stroke: .25px #000;
 }
 
