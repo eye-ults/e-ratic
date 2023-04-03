@@ -457,7 +457,11 @@ footer img {
   align-items: center;
   align-self: center;
   text-align: center;
-  height: 100%;
+}
+
+.die img {
+  width: 60%;
+  height: 60%;
 }
 
 .center {
