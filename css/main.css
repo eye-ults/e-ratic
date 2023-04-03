@@ -635,7 +635,6 @@ form {
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  justify-content: center;
   width: 100%;
   height: 100%;
 }
@@ -886,5 +885,8 @@ img {
   }
   input[type="text"], input[type="email"], textarea, .subject {
     width: 40vw;
+  }
+  form {
+
   }
 }
