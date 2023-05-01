@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>e-ratic site</title>
+  <title>e-ratic.io</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,36 +26,32 @@
 </head>
 
 <body>
-  <img class="hide" src="img/tv_off.png" alt="TV off" preload>
-  <img class="hide" src="img/on.gif" alt="Turn On Effect" preload>
-  <img class="hide" src="img/off.gif" alt="TV Off Effect" preload>
-  <img class="hide" src="img/eye.gif" alt="TV Eye" preload>
-  <img class="hide" src="img/e-glitch.gif" alt="Glitch Effect" preload>
-  <img class="hide" src="img/offline.gif" alt="Offline Effect" preload>
-  <img class="hide" src="img/bluescreen.gif" alt="Blue Screen Effect" preload>
-  <img class="hide" src="img/whitenoise.gif" alt="White Noise Effect" preload>
-
+  
   <div id="hamburger" class="">
 	    <p class="burger"></p>
   </div>
   
   <nav class="hide">
-    <h2>E-ratic</h2>
     <ul>
-      <li><a href="#navhome" ><button class="media"><p>Home</p></button></a></li>
+      <li><a href="#home" ><button class="media"><p>Home</p></button></a></li>
       <li><a href="#about" ><button class="media"><p>About</p></button></a></li>
       <li><a href="#pixel"><button class="media"><p>Pixel Art</p></button></a></li>
       <li><a href="#contact"><button class="media"><p>Contact</p></button></a></li>
-      <li><a href="https://twitter.com/E_raticPixel" target="_blank" title="My Twitter"><button class="media blue"><Img src="img/twitter.png" alt="twitter logo"></Img></button></a></li>
+    </ul>
+    <ul>
+      <li><a href="https://twitter.com/ImE_ratic" target="_blank" title="My Twitter"><button class="media blue"><Img src="img/twitter.png" alt="twitter logo"></Img></button></a></li>
       <li><a href="https://www.youtube.com/@e-ratic" target="_blank" title="My Youtube Channel"><button class="media red"><Img src="img/youtube-icon.png" alt="Youtube logo"></Img></button></a></li>
       <li><a href="https://discord.com/users/666029884828549161" target="_blank" title="My Discord Profile"><button class="media purple"><p>Discord</p></button></a></li>
     </ul>
+    
   </nav>
 
-  <header id="navhome">
+  <header id="home">
     <div id="wrap" class="title">
       <h1 class="margin0">I'm</h1>
-      <Img  id="tv" class="logo tilt" src="img/e-glitch.gif" alt="TV that is off" onclick="toggleTV()"></Img>
+      <div id="tv" class="tilt">
+        <img id="elogo" src="img/e-glitch.gif" alt="Glitch Effect" preload>
+      </div>  
       <h1 class="margin0">E-ratic</h1>
     </div>
   </header>
@@ -105,28 +101,45 @@
     <div id="about">
       <div id="navabout" >
           <h2>About</h2>
-          <p>Hello, Frens! <br> <br>
-            I'm E-ratic. <br> <br>
-            Born in the valley of the ancients, one of the last great products from the 80s. I'm a zen psychonaut, a pusher of pixels, bender of frequencies, a master of hyperbole. I'm a green-pilled crypto enthusiast, an eldritch-tier gamer, lamenter of labels. and wishes Game of Thrones didn't end like shit! <br> <br>
-            I have worn many hats throughout my professional career, which spans over a decade, in both the video game and web industries. Some of the companies I have worked with include Disney, Microsoft, Gas Powered Games, Wargaming.net, and Raidguild.org.<br> <br>
-            If you think you can utilize my talents, please reach out! :)</p>
+          <p>Hello, Frens! <br> <br> 
+            I'm E-ratic, born in the valley of the ancients, one of the last great products from the 80s. I'm a zen psychonaut, a pusher of pixels, bender of frequencies, a master of hyperbole, I'm a green-pilled crypto enthusiast, an eldritch-tier gamer, a lamenter of labels, and wishes game of thrones didn't end like shit! <br> <br>
+            I have worn many hats throughout my professional career, which spans over a decade, in both the video game and web industries. Some of the companies I have worked with include Disney, Microsoft, Gas Powered Games, Wargaming, and Raidguild.org
+            <br> <br>
+            Though I don't dream of labor, I seek a place where I can contribute to my community through building fun, interesting, or regenerative projects that promote human flourishing.<br> <br>
+            If anything comes to mind, that you think we can align on,<br> please reach out!
+          </p>
+          <h4>Interests</h4>
+          <ol>
+            <li>• Eightfold path.</li>
+            <li>• Horror.</li>
+            <li>• Vanlife.</li>
+            <li>• Minimalism.</li>
+            <li>• Regenerative farming.</li>
+            <li>• My Cat</li>
+            <li>• Crypto / Web 3.0 / DAOs</li>
+            <li>• Local competitive games</li>
+            <li>• Learning</li>
+          </ol>
           <h4>Current Goals</h4>
           <ol>
-            <li>• Finish this website.</li>
-            <li>• Contribute to more DAO's.</li>
-            <li>• Make Youtube videos</li>
-            <li>• Participate in Pixel Dailies</li>
-            <li>• Complete my NFT project.</li>
-            <li>• Become ETH Validator.</li>
+            <li class="strike">• Launch this website.</li>
+            <li>• Join more DAO's.</li>
+            <li>• Learn guitar (for real this time).</li>
+            <li>• Make more pixel art.</li>
+            <li>• Use AI to make a video game.</li>
+            <li>• Make content for Youtube.</li>
+            <li>• Grow my own food.</li>
+            <li>• Become ETH validator.</li>
             <li class="strike">• Reach infinite rank in Marvel Snap.</li>
           </ol>
           <h4>Genesis NFT's</h4>
           <a href="https://rarible.com/e-raticgenesis/sale" target="_blank" title="My NFT's on sale."><img src="img/logo.png" alt="Rarible logo"/></a>
           <p>
-            I made some NFT's on Rarible back when I thought of them like digital art prints.<br>Prices range from a cup of coffee, to an entry level cadillac haha.<br> <br>I hope to utilize
-            these NFT's in my future projects.<br> <br>
-            By commissioning work, or by purchasing my NFT's you are helping me reach my goals faster.<br> <br>
-            Thank you!
+            I made some NFT's on Rarible back when I thought of them like digital art prints.<br>Prices range from a cup of coffee, to an entry level cadillac haha. I hope to utilize
+            these NFT's in my future projects.</p>
+          <p>
+            By donating, commissioning work, or purchasing my NFT's you are giving me the freedom to do what I want.<br> <br>
+            Thank You!
           </p>
       </div>
     </div>
@@ -225,24 +238,14 @@
         <h1 class="placeholder"></h1>
       </div>
     </div>
-    <p>&copy; 2023 Spencer A</p>
+    <p>E-ratic Media LLC &copy;2023</p>
   </footer>
 
   <audio id="shake" src="sounds/shake.mp3" preload="auto"></audio>
   <audio id="sad" src="sounds/fail.wav" preload="auto"></audio>
   <audio id="victory" src="sounds/tada.wav" preload="auto"></audio>
-  <audio id="hoot" src="sounds/hoot.wav" preload="auto"></audio>
-  <audio id="offline" src="sounds/kill_your_masters.wav" preload="auto"></audio>
-  <audio id="bluescreen" src="sounds/bluescreen.wav" preload="auto"></audio>
-  <audio id="eye" src="sounds/strange_bird.wav" preload="auto"></audio>
-  <audio id="whitenoise" src="sounds/whitenoise.wav" preload="auto"></audio>
-
   
   <!-- Javascript files -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/loopify.js"></script>
-  <script src="js/plugins.js"></script>
-  <!-- <script src="js/tv.js"></script> -->
   <script src="js/dice.js"></script>
   <script src="js/main.js"></script>
 </body>

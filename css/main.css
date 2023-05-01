@@ -273,6 +273,9 @@ nav .logo-text {
   margin-top: 0px;
   width: 100%;
 }
+#elogo {
+  width: 60%;
+}
 nav ul {
   display: flex;
   flex-direction: column;
@@ -557,6 +560,7 @@ footer img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 #pixel {
@@ -601,13 +605,6 @@ span img {
 #items {
   margin-bottom: 2em;
 }
-
-/* .tvs {
-  display: none;
-}
-.tvs.active {
-  display: block;
-} */
 
 .group {
   display: flex;
@@ -717,9 +714,9 @@ select {
 .logo-text {
   width: 20em;
 }
-.logo {
+#tv {
   align-self: center;
-  height: 50%;
+  height: auto;
   margin: 1em 0px;
   width: auto;
 }
@@ -821,14 +818,15 @@ img {
     padding: 2em;
     height: auto;
   }
-  
+  #elogo {
+   width: 40%;
+  }
 }
 
 @media only screen and (min-width: 800px) {
-  .logo {
-    height: 33%;
-    padding: 3em 0px;
-  }
+  #elogo {
+    width: 100%;
+   }
   #contact {
     height: fit-content;
   }
@@ -854,10 +852,6 @@ img {
 @media only screen and (min-width: 1100px) {
   header {
     background-image: url("../img/void_h.gif");
-  }
-  .logo {
-    height: 47%;
-    padding: 3em 0px;
   }
   .lightbox-image {
     width: auto;
@@ -896,8 +890,5 @@ img {
   }
   input[type="text"], input[type="email"], textarea, .subject {
     width: 40vw;
-  }
-  form {
-
   }
 }
