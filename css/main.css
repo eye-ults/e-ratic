@@ -597,10 +597,12 @@ span img {
 
 #pixel img {
   margin: 2em 0px;
+  width: 100%;
 }
 
 #pixel .group img {
   margin: .75em;
+  width: 40%;
 }
 #items {
   margin-bottom: 2em;
@@ -725,9 +727,6 @@ select {
   border-radius: 100%;
   border: .25em solid black;
 }
-img {
-  width: 100%;
-}
 
 /* ==========================================================================
    Helper classes
@@ -814,6 +813,10 @@ img {
     width: 70%;
     padding: 1em 0px 0px 0px;
   }
+  #pixel .group img {
+    margin: .75em;
+    width: 45%;
+  }
   #skills {
     padding: 2em;
     height: auto;
@@ -874,6 +877,10 @@ img {
   #pixel {
     width: 60%;
   }
+  #pixel img {
+    width: 70%;
+  }
+  
   #items img {
     width: 20%;
   }
